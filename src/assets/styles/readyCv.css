@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-center:first-child {
+  height: 8rem;
+  width: 100%;
+  background-color: rgb(62, 62, 153);
+  color: #fff;
+}
+.title {
+  padding-top: 20px;
+}
+.ready {
+  background-color: #eee;
+  border-radius: 7px;
+  padding: 0;
+  box-shadow: 0 0 10px;
+}
+.main {
+  padding: 40px;
+}
+.main-right {
+  border-left: 2px solid rgba(0, 0, 0, 0.267);
+}
+.main-right > img {
+  padding-top: 20px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.span {
+  font-weight: bold;
+}
