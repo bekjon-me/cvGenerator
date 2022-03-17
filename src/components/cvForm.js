@@ -203,7 +203,7 @@ export default function CvForm() {
           </button>
         </form>
 
-        <PDFExport ref={componentRef} paperSize="A4" fileName="My CV">
+        <PDFExport ref={componentRef} fileName="My CV">
           <ReadyCv />
         </PDFExport>
       </div>

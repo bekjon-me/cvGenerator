@@ -33,7 +33,7 @@ function ReadyCv() {
         <h4>{title}</h4>
       </div>
       <div className="row">
-        <div className="col-9 main">
+        <div className="col-8 main">
           <div className="description my-5">
             <h5>Description</h5>
             <hr />
@@ -76,7 +76,7 @@ function ReadyCv() {
             </div>
           </div>
         </div>
-        <div className="col-3 main-right">
+        <div className="col-4 main-right">
           {imageUrls.map((imageSrc) => (
             <img src={imageSrc} key={Date.now()} />
           ))}
@@ -104,6 +104,16 @@ function ReadyCv() {
           </div>
         </div>
       </div>
+
+      <footer className="footer">
+        <div className="contacts">
+          <a href="mailto:bekjonishpulatov8@gmail.com">
+            bekjonishpulatov8@gmail.com
+          </a>
+          <a href="tel:+998908702909">+998908702909</a>
+          <p className="text-center copyright">Created by Bekjon &copy;</p>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -27,10 +27,27 @@
 }
 .main-right > img {
   padding-top: 20px;
-  width: 95%;
-  margin: 0 auto;
+  width: 75%;
+  margin-left: 10%;
 }
 
 .span {
   font-weight: bold;
+}
+
+footer.footer {
+  position: relative;
+  height: 5rem;
+  width: 100%;
+  background-color: rgba(17, 16, 16, 0.774);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer > .contacts > a {
+  text-decoration: none;
+  margin: 0 30px;
+}
+.copyright {
+  color: #fff;
 }
